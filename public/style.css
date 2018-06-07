@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: none;
+    font-style: Sans-serif;
+    background-image: url("https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+}
+.todo-content{
+    margin-left: 30%;
+    background-color: rgba(4, 3, 3, 0.563);
+    width: 40%;
+    text-align: center;
+}
+#header-pic
+{
+    width: 50%;
+}
+
+input {
+ 
+
+}
+.addButton{
+    color: white;
+    border: 3px solid rgb(225, 172, 65);
+    background-color: rgb(124, 25, 19) !important;
+}
+#footer
+{
+    color: white;
+}
+#pinchos-todo{
+    color: white;
+    list-style:none;
+}
+
+@media screen and (max-width: 767px) {
+    #header-pic
+    {
+        margin-left: 8%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+    .todo-content{
+        width: 50%;
+    }
+    #root{
+        margin-right: 20%;
+    }
+    form{
+        margin-right: 10%;
+    }
+}
